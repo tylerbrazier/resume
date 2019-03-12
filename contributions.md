@@ -1,0 +1,4 @@
+- Git: <https://github.com/git/git/commit/f15e7cf5cc95cbfd0d05c260f75631781e290edc>
+- Node.js: <https://github.com/nodejs/node/issues/8913#issuecomment-253109883>
+- CXF: <https://issues.apache.org/jira/browse/CXF-6606>
+- Syncthing <https://github.com/syncthing/syncthing/issues/2377>

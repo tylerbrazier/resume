@@ -1,3 +1,1 @@
-Resume
-------
-Hosted at http://tylerbrazier.github.io/resume/
+<http://tylerbrazier.com/resume>
