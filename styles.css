@@ -1,6 +1,7 @@
 body {
     max-width: 510pt; /* about the same as printed paper */
     margin: auto; /* center on page */
+    font-size: .95em; /* just big enough to fit it all on one page */
 }
 #top {
     text-align: right;
