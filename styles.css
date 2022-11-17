@@ -3,15 +3,7 @@ body {
     margin: auto; /* center on page */
     font-size: .95em; /* just big enough to fit it all on one page */
 }
-#top {
-    text-align: right;
-}
-#me {
-    float: left;
-}
 #languages {
-    padding-left: 0px;
-    list-style-type: none;
     text-align: center;
 }
 #languages li {
