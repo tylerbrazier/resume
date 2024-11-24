@@ -1,148 +1,198 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Resume</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div id="top">
-            <h2 id="me">Tyler Brazier</h2>
-            <p id="address">
-            <a href="mailto:tyler@tylerbrazier.com">tyler@tylerbrazier.com</a>
-            </p>
-        </div>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="styles.css">
+		<title>Tyler Brazier Resume</title>
+	</head>
+	<body>
 
-        <ul id="languages">
-            <li>C</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Nodejs</li>
-            <li>Vue</li>
-            <li>Go</li>
-            <li>Kubernetes</li>
-        </ul>
+		<div>
+			<div id="name">Tyler Brazier</div>
+			<div>
+				<a href="mailto:tyler@tylerbrazier.com">tyler@tylerbrazier.com</a>
+			</div>
+			<div>
+				<a href="https://github.com/tylerbrazier">github.com/tylerbrazier</a>
+			</div>
+		</div>
 
+		<div class="section">
+			<div class="section-title">Education</div>
+			<div class="section-entry">
+				<div class="entry-title">
+					Masters of Computer Science
+					<span class="title-extra">NDSU 2012-2014</span>
+				</div>
+				<div class="entry-details">GPA 3.89</div>
+			</div>
+			<div class="section-entry">
+				<div class="entry-title">
+					Bachelors of Software Engineering
+					<span class="title-extra">UMN Crookston 2008-2011</span>
+				</div>
+				<div class="entry-details">GPA 3.73</div>
+			</div>
+		</div>
 
-        <h3 class="section">Education</h3>
+		<div class="section">
+			<div class="section-title">Volunteer Work</div>
+			<div class="section-entry">
+				<div class="entry-title">Contributions to open source projects</div>
+				<div id="contributions" class="entry-details">
+					<a class="contribution"
+						 href="https://github.com/nodejs/node/issues/8913#issuecomment-253109883">
+						Node.js</a>
+					<a class="contribution"
+						 href="https://github.com/git/git/commit/f15e7cf5cc95cbfd0d05c260f75631781e290edc">
+						Git</a>
+					<a class="contribution"
+						 href="https://github.com/kubernetes/ingress-nginx/pull/7027">
+						Kubernetes</a>
+					<a class="contribution"
+						 href="https://issues.apache.org/jira/browse/CXF-6606">
+						Apache CXF</a>
+					<a class="contribution"
+						 href="https://github.com/syncthing/syncthing/pull/2443/commits">
+						Syncthing</a>
+				</div>
+			</div>
+			<div class="section-entry">
+				<div class="entry-title">
+					Youth With A Mission (YWAM)
+					<span class="title-extra">2021-2024</span>
+				</div>
+				<ul class="entry-details">
+					<li>
+						Staffed three
+						<a href="https://www.ywammontana.org/discipleship-training-school">
+							Discipleship Training Schools</a>.
+					</li>
+					<li>
+						Led teams of 9-14 students on
+						<a href="https://www.youtube.com/@TylerBrazier">missions</a>
+						to Panama, Thailand, and South Asia.
+					</li>
+					<li>
+						<a href="https://youtu.be/63sdTWet4WQ">Medical missions</a>
+						in Papua New Guinea and
+						<a href="https://youtu.be/UFfNPrCu7VY">water drilling</a>
+						in Solomon Islands.
+					</li>
+				</ul>
+			</div>
+		</div>
 
-        <h4 class="subsection">
-            University of Minnesota, Crookston
-            <span class="date">2008-2011</span>
-        </h4>
-        <p class="meat">Bachelors, Software Engineering<br>GPA 3.73</p>
+		<div class="section">
+			<div class="section-title">Work Experience</div>
 
-        <h4 class="subsection">
-            North Dakota State University
-            <span class="date">2012-2014</span>
-        </h4>
-        <p class="meat">Masters, Computer Science<br>GPA 3.89</p>
+			<div class="section-entry">
+				<div class="entry-title">
+					<a href="https://voxtelesys.com/">Voxtelesys</a>
+					<span class="title-extra">2019-2021</span>
+				</div>
+				<ul class="entry-details">
+					<li>
+						Led team of 5-6 on a product rebuild project in Node.js/Vue.js.
+					</li>
+					<li>
+						Set up Kubernetes for the company and migrated deployments onto it.
+					</li>
+				</ul>
+			</div>
 
+			<div class="section-entry">
+				<div class="entry-title">
+					<a href="https://coschedule.com/">CoSchedule</a>
+					<span class="title-extra">2017-2018</span>
+				</div>
+				<ul class="entry-details">
+					<li>
+						Backend and frontend work in Ember, Node, and Cordova (mobile).
+					</li>
+				</ul>
+			</div>
 
-        <h3 class="section">Work Experience</h3>
+			<div class="section-entry">
+				<div class="entry-title">
+					<a href="https://www.linkedin.com/company/intelligent-insites">
+						Intelligent InSites</a>
+					<span class="title-extra">2014-2017</span>
+				</div>
+				<ul class="entry-details">
+					<li>Worked on core RTLS platform in Java, Ruby, and MS SQL.</li>
+				</ul>
+			</div>
 
-        <h4 class="subsection">
-            Voxtelesys
-            <span class="date">2019</span>
-        </h4>
-        <ul class="meat">
-            <li>Lead engineer on admin site rewrite in Node/Vue.js</li>
-        </ul>
+			<div class="section-entry">
+				<div class="entry-title">
+					<a href="https://www.ndsu.edu">North Dakota State University</a>
+					<span class="title-extra">2012-2014</span>
+				</div>
+				<ul class="entry-details">
+					<li>
+						Taught MS Office courses to 90+ students as part of graduate
+						assistantship.
+					</li>
+				</ul>
+			</div>
 
-        <h4 class="subsection">
-            CoSchedule
-            <span class="date">2017-2018</span>
-        </h4>
-        <ul class="meat">
-            <li>Software Engineer on integrations, mobile, and calendar teams.</li>
-        </ul>
+			<div class="section-entry">
+				<div class="entry-title">
+					<a href="https://www.fnal.gov/">
+						Fermi National Accelerator Laboratory</a>
+					<span class="title-extra">internship 2010-2012</span>
+				</div>
+				<ul class="entry-details">
+					<li>
+						Designed and built software for quality assurance and inventory
+						management for the
+						<a href="https://cse.umn.edu/college/news/nova-neutrino-detector-constructed-university-minnesota-researchers-and-students">
+							Minnesota neutrino detector</a> used in the
+						<a href="https://novaexperiment.fnal.gov/">NOvA experiment</a>.
+					</li>
+				</ul>
+			</div>
 
-        <h4 class="subsection">
-            Intelligent InSites
-            <span class="date">2014-2017</span>
-        </h4>
-        <ul class="meat">
-            <li>Primarily developing on the core RTLS platform using Java web technologies.</li>
-        </ul>
+			<div class="section-entry">
+				<div class="entry-title">
+					<a href="https://conservancy.umn.edu/server/api/core/bitstreams/478b9bcd-b9cb-4372-a721-b1527c011ee3/content">
+						University of Minnesota, Crookston</a>
+					<span class="title-extra">2009-2011</span>
+				</div>
+				<ul class="entry-details">
+					<li>
+						Tutored Programming I &amp; II, C#, and Web Development courses.
+					</li>
+					<li>
+						Built and programmed
+						<a href="https://www.yumpu.com/en/document/read/33771390/code-man-university-of-minnesota-crookston/1">
+							CO2 collection machine</a> for greenhouse gas experiments.
+					</li>
+					<li>
+						Prepared 3-day curriculum and instructed Lego robotics camp for
+						elementary students.
+					</li>
+				</ul>
+			</div>
 
-        <h4 class="subsection">
-            Fermi National Accelerator Laboratory
-            <span class="date">2010-2012</span>
-        </h4>
-        <ul class="meat">
-            <li>
-                Designed and built a barcode-enabled inventory management and
-                quality assurance system in conjunction with Fermilab for their
-                Minnesota neutrino detector used in the
-                <a href="https://www-nova.fnal.gov/">NOvA experiment</a>.
-            </li>
-        </ul>
+			<div class="section-entry">
+				<div class="entry-title">
+					<a href="https://centralboiler.com/">Central Boiler</a>
+					<span class="title-extra">2005-2013</span>
+				</div>
+				<ul class="entry-details">
+					<li>
+						Started as a teenager in the machine shop,
+						then into shipping &amp; receiving, then into IT,
+						then into R&amp;D doing embedded development on various chipsets.
+					</li>
+				</ul>
+			</div>
 
-        <h4 class="subsection">
-            Central Boiler
-            <span class="date">2005-2013</span>
-        </h4>
-        <ul class="meat">
-            <li>
-                Embedded systems development to build automated wood stove
-                testing machine to be used on the production line.
-            </li>
-            <li>Worked on PCB router machine based on the design of a 3D printer.</li>
-            <li>
-                IT; provided user support, computer set-up, and troubleshooting for
-                employees.
-            </li>
-            <li>
-                Instructor's assistant at several dealer conventions consisting of 500+ attendees.
-            </li>
-            <li>Installed speakers, access points, and pulled wires throughout the factory.</li>
-        </ul>
+		</div> <!-- /section -->
 
-        <h4 class="subsection">
-            University of Minnesota, Crookston
-            <span class="date">2009-2011</span>
-        </h4>
-        <ul class="meat">
-            <li>
-                Instructed a Lego Robotics Camp; prepared a three-day curriculum for
-                elementary students and conducted the camp; students learned to build
-                and program Lego Mindstorms robots.
-            </li>
-            <li>Tutored Programming I &amp; II, C#, and Website Development courses.</li>
-            <li>
-                Built and programmed CO2 collection machine for greenhouse gas experiments.
-            </li>
-        </ul>
-
-        <h4 class="subsection">
-            North Dakota State University
-            <span class="date">2012-2014</span>
-        </h4>
-        <ul class="meat">
-            <li>
-                Taught Microsoft Office courses as part of
-                graduate assistantship.
-            </li>
-        </ul>
-
-
-        <h3 class="section">Personal/Volunteer Work</h3>
-
-        <ul class="meat">
-            <li>
-                Contributions to open source projects including
-                <a href="https://github.com/git/git/commit/f15e7cf5cc95cbfd0d05c260f75631781e290edc">Git</a>,
-                <a href="https://github.com/kubernetes/ingress-nginx/pull/7027">Kubernetes</a>,
-                <a href="https://nodejs.org">Node.js</a>
-                and <a href="https://cxf.apache.org/">Apache CXF</a>.
-            </li>
-            <li>
-                Several archived and ongoing personal projects on
-                <a href="https://github.com/tylerbrazier">Github</a>.
-            </li>
-            <li>Manage my own headless Linux VPS for various side projects.</li>
-            <li>Led mission trips to Mexico, Panama, and Thailand.</li>
-        </ul>
-    </body>
+	</body>
 </html>
+<!-- vim: set ts=2 sw=2: -->

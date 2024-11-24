@@ -1,42 +1,40 @@
 body {
-    max-width: 510pt; /* about the same as printed paper */
-    margin: auto; /* center on page */
-    font-size: .95em; /* just big enough to fit it all on one page */
+	max-width: 700px;
+	margin: auto; /* center on page */
+	padding: 4px; /* from edges on small screens */
 }
-#languages {
-    text-align: center;
+
+#name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 4px;
 }
-#languages li {
-    display: inline-block;
-    margin-left:16px;
-    margin-right:16px;
-    padding-left: 0px;
-}
+
 .section {
-    text-decoration: underline;
-    margin-bottom: 6px;
-    margin-top: 6px;
+	margin-top: 16px;
 }
-.subsection {
-    margin-left: 6px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.section-title {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
 }
-.meat {
-    margin-top: 2px;
-    margin-bottom: 2px;
+.section-entry {
+	margin: 8px;
 }
-.meat li {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    list-style-type: circle;
+.entry-title {
+	font-weight: bold;
 }
-p.meat {
-    margin-left: 14px;
+.entry-details {
+	margin: 4px 0px;
+	padding-left: 16px;
+	list-style-type: circle;
 }
-ul.meat {
-    padding-left: 32px;
+
+#contributions {
+	display: flex;
+	justify-content: space-evenly;
 }
-.date {
-    float: right;
+.title-extra {
+	font-weight: normal;
+	float: right;
 }

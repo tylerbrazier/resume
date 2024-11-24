@@ -1,1 +1,0 @@
-<http://tylerbrazier.com/resume>
