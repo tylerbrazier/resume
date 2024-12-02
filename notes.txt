@@ -1,0 +1,16 @@
+Questions for the company:
+- tech stack details: what DB, server/client frameworks, etc.
+- how often do you ship?
+- what CI/CD?
+- version control
+- code reviews
+- what issue tracker?
+- pair programming?
+- is any editor/IDE or OS required?
+- work env: cubes or?
+- vacation
+- company values
+- in what practical ways are you applying those values?
+- what do you like about working here?
+- what don't you like about working here?
+- I saw these things on your website; what do they mean?
